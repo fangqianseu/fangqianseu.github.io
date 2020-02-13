@@ -1,0 +1,162 @@
+html, body{
+	height:100%;
+}
+
+@font-face{
+	font-family:'RuiHeiXiTi';
+	src:url('../RuiHeiXiTi.otf') format('truetype');
+	font-weight:bold;
+	font-style:normal;
+}
+
+body {
+	background: #222;
+	/*font-family: 'RuiHeiXiTi';*/
+	overflow: hidden
+}
+
+#content{
+	height:100%;
+}
+
+#mainDiv {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+	min-height: 690px;
+	min-width: 1100px;
+}
+
+#module{
+	display:none;
+}
+
+#loveHeart {
+	float: right;
+	width:670px;
+	height:100%;
+	min-height:690px;
+}
+
+#words {
+	font-family: 'RuiHeiXiTi',"sans-serif";
+	width: 505px;
+	font-size: 24px;
+	color: #fff;
+	display:none;
+}
+
+#visitCount {
+	font-family: "digit";
+	font-size: 36px;
+	font-style:italic;
+	margin: 0 10px;
+}
+
+#loveu {
+	padding: 5px;
+	font-size: 22px;
+	margin-top: 40px;
+	margin-right: 100px;
+	text-align: right;
+	display: none;
+}
+
+#loveu .signature {
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: italic
+}
+
+#code {
+	color: #333;
+	font-family: 'RuiHeiXiTi',"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+	font-size: 18px;
+	line-height: 1.5;
+	padding-top: 30px;
+	min-height:250px;
+	padding-left: 40px;
+}
+
+#code .comments {
+	color: #fff;
+}
+
+.module-item{
+	width:200px;
+	height:200px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.module-img{
+	width:200px;
+	height:200px;
+}
+
+.module-description{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	padding: 14px;
+	font-family: "å¾®è½¯é›…é»‘";
+	font-size: 14px;
+	background-color: rgba(10,10,10, 0.8);
+	color: #ddd;
+	line-height: 1.5;
+	border-radius: 4px;
+	display:none;
+}
+
+#errorMsg{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	color:#000;
+}
+
+#feedBackDiv{
+	color: #333;
+	font-size: 16px;
+	bottom: 0.2em;
+	left: 50%;
+	padding: 3px;
+	z-index: 999;
+	background-color: #fff;
+	border: 1px solid #D3D3D3;
+	border-radius: 4px;
+	position: fixed;
+	font-family: "RuiHeiXiTi",sans-serif;
+	margin-left: -160px;
+}
+
+#feedbackBtn{
+	font-family: "RuiHeiXiTi",sans-serif;
+	color: #fff;
+	font-size: 15px;
+	display: inline-block;
+	background-color: #428bca;
+	padding: 6px 12px;
+	vertical-align: 1px;
+	border: 1px solid #357ebd;
+	border-radius: 4px;
+	outline: none;
+	cursor: pointer;
+}
+
+#elapseClock {
+	text-align: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#elapseClock .digit {
+	font-family: "digit";
+	font-size: 36px
+}
